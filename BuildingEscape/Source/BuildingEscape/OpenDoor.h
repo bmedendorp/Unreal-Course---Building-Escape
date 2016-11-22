@@ -38,5 +38,5 @@ private:
 
 	AActor* Owner;
 
-	float GetTotalMassOfActorsOnPlate();
+	float GetTotalMassOfActorsOnPlate() const;
 };
